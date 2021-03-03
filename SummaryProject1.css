@@ -1,0 +1,35 @@
+.horizontal-container {
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1.summary-heading {
+    align-self: center;
+}
+
+h2.summary-element {
+    align-self: center;
+}
+
+h3.team-member {
+    align-self: center;
+}
+
+body {
+    background-color: #f5df4d;
+    border: 5px solid yellow;
+    color: white;
+}
+
+a {
+    position: absolute;
+    bottom: 50px;
+    left: 47%;
+    color:white;
+}
